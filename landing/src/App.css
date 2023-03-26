@@ -18,3 +18,31 @@
   justify-content: center;
   margin-top: 3em;
 }
+.back-img{
+  grid-column: 3;
+  grid-row: 2;
+  column-span: 3;
+  max-width: 40rem;
+  max-height: 40rem;
+}
+.img-cont{
+  position: absolute;
+  right: 1px;
+  display: grid;
+  grid-template-columns: 3;
+  grid-template-rows: 3;
+  grid-column: 3;
+  grid-row: 1;
+}
+.bc{
+  z-index: 3;
+}
+.s{
+  grid-column: 3;
+  z-index: 2;
+}
+.c{
+  grid-row: 3;
+  grid-column: 3;
+
+}
