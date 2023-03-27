@@ -1,4 +1,21 @@
+.Login{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .img{
     max-height: 1em;
     max-width: 1em;
+}
+.but{
+    background-color: rgba(0, 0, 255, 0.746);
+    border-radius: 1em;
+    height: 2rem;
+    width: 6rem;
+    color: white;
+}
+.inp-cont{
+    display: flex;
+    width: 30rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
 }

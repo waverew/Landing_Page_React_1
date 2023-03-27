@@ -1,8 +1,9 @@
 import './Login.css';
 const Login = () => {
     return (
-        <div>
-            <label>Welcome back</label>
+        <div className='Login'>
+            <label><b>Welcome back</b>
+            <br></br>Login to your account</label>
             <form onSubmit={console.log('bebra')}>
                 <label>
                     <img src="https://cdn-icons.flaticon.com/svg/3917/3917688.svg?token=exp=1679712291~hmac=a5d57eb496158ad3666c3d6fa08bc569" className="img">
@@ -18,7 +19,13 @@ const Login = () => {
                 <input type="text" defaultValue={"password"} name="pass">
                 </input>
                 <br></br>
-                <button type="submit">Login</button>
+                <div className='inp-cont'>
+                    <div>
+                    <input type='checkbox'></input>
+                    <label>Remember me</label>
+                    </div>
+                    <button type="submit" className='but'>Login</button>
+                </div>
             </form>
         </div>
     )
