@@ -5,7 +5,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    row-gap: 2em;
+    row-gap: 1em;
 }
 p{
     margin-bottom: 0;
@@ -13,6 +13,11 @@ p{
 .form{
     grid-column: 1;
     grid-row: 2;
+    display: flex;
+    justify-content: center;
+}
+.greet-div{
+    height: min-content;
 }
 .img{
     max-height: 1em;
@@ -27,8 +32,8 @@ p{
 }
 .inp-cont{
     display: flex;
-    
-    justify-content: space-around;
+    width: 20rem;
+    justify-content: space-between;
     align-items: center;
     margin-top: 2rem;
 }
