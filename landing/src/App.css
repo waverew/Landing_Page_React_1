@@ -1,52 +1,13 @@
 .App{
-  height: 100vh;
-  max-width: 100vw;
   background-color: white;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-gap: 10px;
   overflow: hidden;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .login{
   text-align: center;
   grid-row: 2;
   grid-column: 1;
   column-span: 2;
-}
-.logo{
-  display: flex;
-  justify-content: center;
-  margin-top: 3em;
-}
-.back-img{
-  grid-column: 3;
-  grid-row: 2;
-  column-span: 3;
-  max-width: 40rem;
-  max-height: 40rem;
-}
-.img-cont{
-  position: absolute;
-  right: 1px;
-  display: grid;
-  grid-template-columns: 3;
-  grid-template-rows: 3;
-  grid-column: 3;
-  grid-row: 1;
-}
-.bc{
-  z-index: 3;
-}
-.s{
-  grid-column: 3;
-  z-index: 2;
-}
-.c{
-  margin-right: 10rem; 
-  grid-row: 3;
-  grid-column: 3;
-
 }
 .log-cont{
   display: flex;
