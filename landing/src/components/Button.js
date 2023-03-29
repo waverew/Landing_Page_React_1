@@ -1,9 +1,7 @@
 import "./Button.css"
 const Button = (props) => {
     return (
-        <div className="Button">
-            <button onClick={props.func}>{props.text}</button>
-        </div>
+            <button onClick={props.func} type={props.type} className="Button">{props.text}</button>
     )
 }
 export default Button;

@@ -26,13 +26,6 @@
     max-height: 1em;
     max-width: 1em;
 }
-.but{
-    background-color: rgba(0, 0, 255, 0.746);
-    border-radius: 1em;
-    height: 2rem;
-    width: 6rem;
-    color: white;
-}
 .inp-cont{
     display: flex;
     width: 20rem;
@@ -48,6 +41,11 @@
     grid-column: 1;
     grid-row: 1;
 }
-.logo label{
-    color:rgba(0, 0, 255, 0.9);
+.log-cont{
+    display: block;
+    border: solid 1px gray;
+    border-radius: 10px;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    
 }
