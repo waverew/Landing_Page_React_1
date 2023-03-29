@@ -7,7 +7,10 @@
     grid-template-rows: repeat(3, 1fr);
     row-gap: 1em;
 }
-p{
+.greet-div p{
+    margin-top: 0;
+}
+.f p{
     margin-bottom: 0;
 }
 .form{
@@ -38,6 +41,7 @@ p{
     margin-top: 2rem;
 }
 .logo{
+    text-shadow: -1px 1px 7px rgba(66,86,174,0.68);
     display: flex;
     justify-content: center;
     margin-top: 3em;

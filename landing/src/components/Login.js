@@ -15,7 +15,7 @@ const Login = () => {
                         <br></br>
                         <p>Login to your account</p>
                     </div>
-                <form onSubmit={console.log('bebra')}>
+                <form onSubmit={console.log('bebra')} className="f">
                     <p>Username</p>
                     <label>
                         <img src="https://cdn-icons.flaticon.com/svg/3917/3917688.svg?token=exp=1679712291~hmac=a5d57eb496158ad3666c3d6fa08bc569" alt="" className="img">
