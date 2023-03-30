@@ -45,6 +45,7 @@ const Login = () => {
               <Button text="Login" type="submit"></Button>
             </div>
           </form>
+          <Button func={() => {window.location.href="/dashboard"}}/>
         </div>
       </div>
     </div>
