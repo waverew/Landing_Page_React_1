@@ -1,26 +1,26 @@
 .group-img{
     position: absolute;
-    max-width: 40vw;
-    max-height: 40vh;
+    max-width: 40%;
+    max-height: 40%;
     right: 0rem;
     bottom: 12rem;
     z-index: 2;
 }
 .ellipse1{
     position: absolute;
-    max-width: 35vw;
+    max-width: 35%;
     right: 0rem;
     bottom: 20rem;
 }
 .ellipse2{
     position: absolute;
-    max-width: 40vw;
+    max-width: 40%;
     right: 0rem;
     bottom: 0rem;
 }
 .ellipse3{
     position: absolute;
-    max-width: 35vw;
+    max-width: 35%;
     right: 20rem;
     bottom: 15rem;
 }
