@@ -1,8 +1,9 @@
 import "./PolButton.css";
+import PlusPolButImg from "./imgs/PlusPolButImg";
 const PolButton = (props) => {
   return (
     <button onClick={props.func} className="PolButton">
-      <img src={props.src} alt={props.alt}/>
+      <PlusPolButImg/>
       {props.text}
     </button>
   );

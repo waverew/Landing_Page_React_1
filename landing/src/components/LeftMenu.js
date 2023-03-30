@@ -2,13 +2,36 @@ import LeftMenuItem from "./LeftMenuItem";
 import PolButton from "./PolButton";
 import "./LeftMenu.css";
 const LeftMenu = () => {
+  const redirect = (astr) => {
+    window.location.href = astr;
+  };
   return (
     <div className="LeftMenu">
       <div>
-        <LeftMenuItem href="/dashboard" text="Dashboard" />
-        <LeftMenuItem href="/poldata" text="Polling Data" />
-        <LeftMenuItem href="/userdata" text="User Data" />
-        <LeftMenuItem href="/history" text="Polling History" />
+        <LeftMenuItem
+          href={() => {
+            redirect("/dashboard");
+          }}
+          text="Dashboard"
+        />
+        <LeftMenuItem
+          href={() => {
+            redirect("/poldata");
+          }}
+          text="Polling Data"
+        />
+        <LeftMenuItem
+          href={() => {
+            redirect("/userdata");
+          }}
+          text="User Data"
+        />
+        <LeftMenuItem
+          href={() => {
+            redirect("/history");
+          }}
+          text="Polling History"
+        />
         <PolButton text="New Poll" />
       </div>
     </div>
