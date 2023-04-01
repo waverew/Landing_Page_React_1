@@ -2,7 +2,7 @@ import './LeftMenuItem.css';
 const LeftMenuItem = (props) => {
     return (
         <div className="LeftMenuItem" onClick={props.href}>
-            <img src={props.src} alt={props.alt}></img>
+            <img src={props.src} alt={props.alt} className='img'></img>
             <p>{props.text}</p>
         </div>
     );
