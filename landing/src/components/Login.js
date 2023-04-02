@@ -24,16 +24,16 @@ const Login = () => {
             <div className="log-cont">
               <Input
                 text="Username"
-                type="text"
+                type="email"
                 name="username"
-                src="https://cdn-icons.flaticon.com/svg/3917/3917688.svg?token=exp=1680374396~hmac=809bd9b1ab22929821fb368be4494717"
+                src="./img/login/hector.png"
                 alt=""
               />
               <Input
                 text="Password"
                 type="password"
                 name="password"
-                src="https://cdn-icons.flaticon.com/svg/3917/3917591.svg?token=exp=1680374396~hmac=9c92e060533df46955cd7ba962b31922"
+                src="./img/login/V4ector.png"
                 alt=""
               ></Input>
             </div>
