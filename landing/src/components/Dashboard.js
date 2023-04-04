@@ -4,6 +4,7 @@ import SearchBar from "./SearchBar";
 import LeftMenu from "./LeftMenu";
 import FinalPolCompact from "./FinalPolCompact";
 import MainPolArea from "./MainPolArea";
+import VoteActivity from "./VoteActivity";
 const Dashboard = () => {
   return (
     <div className="Dashboard">
@@ -13,6 +14,7 @@ const Dashboard = () => {
         <LeftMenu />
       </div>
       <MainPolArea />
+      <VoteActivity/>
     </div>
   );
 };
