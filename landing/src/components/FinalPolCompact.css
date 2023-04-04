@@ -1,3 +1,14 @@
 .FinalPolCompact{
-    background-color: rgba(100, 11, 184, 0.796);
+    background-color: rgba(2, 0, 72, 0.743);
+    width: 15rem;
+    border-radius: 10px;
+    height: 8rem;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.polpic{
+    height: 100px;
+    
 }

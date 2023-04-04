@@ -1,11 +1,14 @@
-import './FinalPolCompact.css';
+import "./FinalPolCompact.css";
 const FinalPolCompact = (props) => {
   return (
     <div className="FinalPolCompact">
-      <p>
-        <b>{props.name}</b>
-      </p>
-      <p>Selection</p>
+      <img src="./img/dashboard/polpic.png" alt="" className="polpic"></img>
+      <div>
+        <p>
+          <b>{props.name}</b>
+        </p>
+        <p>Selection</p>
+      </div>
     </div>
   );
 };
