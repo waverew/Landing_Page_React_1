@@ -2,7 +2,6 @@ import Logo from "./Logo";
 import "./Dashboard.css";
 import SearchBar from "./SearchBar";
 import LeftMenu from "./LeftMenu";
-import FinalPolCompact from "./FinalPolCompact";
 import MainPolArea from "./MainPolArea";
 import VoteActivity from "./VoteActivity";
 const Dashboard = () => {
@@ -14,7 +13,7 @@ const Dashboard = () => {
         <LeftMenu />
       </div>
       <MainPolArea />
-      <VoteActivity/>
+      <VoteActivity />
     </div>
   );
 };
