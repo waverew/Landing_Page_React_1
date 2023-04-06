@@ -4,6 +4,7 @@ import SearchBar from "./SearchBar";
 import LeftMenu from "./LeftMenu";
 import MainPolArea from "./MainPolArea";
 import VoteActivity from "./VoteActivity";
+import Profile from "./Profile";
 const Dashboard = () => {
   return (
     <div className="Dashboard">
@@ -14,6 +15,7 @@ const Dashboard = () => {
       </div>
       <MainPolArea />
       <VoteActivity />
+      <Profile name="Mikkie" src="./img/dashboard/Ellipse 8.png" />
     </div>
   );
 };
